@@ -1,7 +1,6 @@
 "use client";
 
-import Image from "next/image";
-import { useState, useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import { Button } from "./ui/button";
 
 export default function MaskDetection() {
