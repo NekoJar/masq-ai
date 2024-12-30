@@ -10,7 +10,7 @@ export default function MaskDetection() {
 
   const startStream = () => {
     if (imageRef.current) {
-      imageRef.current.src = `http://localhost:8000/video-feed`;
+      imageRef.current.src = `${process.env.NEXT_PUBLIC_VIDEO_FEED}`;
       setIsStreaming(true);
     }
   };

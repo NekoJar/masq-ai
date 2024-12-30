@@ -2,7 +2,7 @@ import Dashboard from "@/components/Dashboard";
 
 export default function Home() {
   return (
-    <main className="w-full h-screen">
+    <main className="">
       <Dashboard />
     </main>
   );
